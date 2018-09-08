@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Gamja+Flower');
+
+
+body{
+    /* background-color: grey; */
+}
+
+.jumbotron{
+    text-align: center;
+    margin-bottom: 0;
+    font-family: 'Gamja Flower', cursive;
+    font-size: 30px;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+
+.squareColor{
+    width:150px;
+    height:150px;
+    margin: 4px;
+}
+
+/* Wrong and Right classes */
+
+.wrong{
+    font-weight: bold;
+    color: red;
+}
+
+.right{
+    font-weight: bold;
+    color: green;
+}
+
+
+#easymd{
+    border-radius: 10px;
+
+}
+#easymd:hover{
+    background: lightblue;
+}
+
+#normmd{
+    border-radius: 10px;
+
+}
+#normmd:hover{
+    background: lightgreen;
+}
+
+#hardmd{
+    border-radius: 10px;
+}
+#hardmd:hover{
+    background: coral;
+}
+
+#critmd{
+    border-radius: 10px;
+}
+#critmd:hover{
+    background: pink;
+}
+
+#secretmd{
+    border-radius: 10px;
+
+
+}
